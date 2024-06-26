@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.map {
+    flex: 1;
+    background-color: rgb(251, 230, 5);
+    /* opacity: 1; */
+    /* width: 50%; */
+    margin-left: 10px ;
+    /* margin-right: 20%; */
+    border-radius: 15px;
+}
+
+.cart {
+    background-color: beige;
+    padding: 0px 50px;
+    border-radius: 15px;
+    height: fit-content;
+    margin-right: 1%;
+
+}
+
+.cart-item {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+    /* margin-right: 10px; */
+    /* background-color:burlywood;   */
+    box-shadow: 0px 0px 10px black;
+}
+
+.cart-items div {
+    margin-bottom: 10px;
+}
+
+.butt{
+    width: 50px;
+}
+.butts{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 10px;
+    /* gap: 100px; */
+}
+

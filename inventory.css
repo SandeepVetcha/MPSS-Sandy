@@ -1,0 +1,91 @@
+.inventory button  {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #007bff;
+  }
+  
+  .inventory button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .add-item-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+/* General styling for the search bar container */
+.search-bar {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the elements horizontally */
+    align-items: center; /* Center the elements vertically */
+    margin: 20px 0; /* Add some margin for spacing */
+    padding: 10px; /* Add some padding inside the container */
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Soft shadow for depth */
+  }
+  
+  /* Styling for the input field */
+  .search-bar input[type="text"] {
+    flex: 1; /* Take up available space */
+    padding: 10px 20px; /* Padding for aesthetics */
+    font-size: 16px; /* Larger, more readable text */
+    border: none; /* No border for a seamless look */
+    border-radius: 10px; /* Rounded corners on the left side */
+    outline: none; /* Remove outline to avoid focus ring */
+  }
+  
+  /* Styling for the search button */
+  .search-bar button {
+    padding: 10px 20px; /* Padding for clickability */
+    font-size: 16px; /* Match input text size */
+    border: none; /* No border for a seamless look */
+    border-radius: 10px; /* Rounded corners on the right side */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white; /* White text for contrast */
+    outline: none; /* Remove outline to avoid focus ring */
+  }
+  
+  /* Add a hover effect for the button for interactivity */
+  .search-bar button:hover {
+    background-color: #0056b3; /* A slightly darker blue on hover */
+  }
+  
+
+.add-item-section:hover {
+    transform: scale(1.1);
+}
+
+.add-item-section p {
+    margin-bottom: 10px;
+}
+
+.add-item-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.add-item-section button:hover {
+    background-color: #0056b3;
+}

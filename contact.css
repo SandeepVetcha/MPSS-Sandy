@@ -1,0 +1,19 @@
+hr {
+    border: 0;
+    background-color: #fff;
+    width: 30%;
+    /* background-color:green; */
+    border-top: 2px dashed #333;
+  }
+.img{
+    height: 100px;
+    width: 100px;
+}
+
+.wow :hover{
+    background-color: rgb(10, 181, 81);
+    color: white;
+    border-radius: 15px;
+    /* fon */
+    width: 1000px;
+}
